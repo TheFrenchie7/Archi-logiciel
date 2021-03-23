@@ -28,6 +28,26 @@ namespace VCubWatcher.Controllers
             return View();
         }
 
+        public IActionResult Accueil()
+        {
+            return View();
+        }
+
+        public IActionResult Liste()
+        {
+            return View();
+        }
+
+        public IActionResult Carte()
+        {
+            return View();
+        }
+
+        public IActionResult Favoris()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
